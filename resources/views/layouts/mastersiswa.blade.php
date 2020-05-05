@@ -94,7 +94,7 @@
                     @else
 					<ul class="nav">
 						<li><a href="{{route('home')}}" class="active"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
-						<li><a href="{{route('mapel.index')}}" class=""><i class="lnr lnr-code"></i> <span>Mapel</span></a></li>
+						<li><a href="#" class=""><i class="lnr lnr-code"></i> <span>Mapel</span></a></li>
 						<li><a href="{{route('siswa.index')}}" class=""><i class="lnr lnr-chart-bars"></i> <span>Siswa</span></a></li>
 						<li><a href="#" class=""><i class="lnr lnr-cog"></i> <span>Akun</span></a></li>
 						<li><a href="#" class=""><i class="lnr lnr-alarm"></i> <span>Pemberitahuan</span></a></li>

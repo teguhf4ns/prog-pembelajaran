@@ -85,11 +85,11 @@
         <tr>
             <td>
                 <div style=" margin-left:auto; margin-right:0; width: 250px; text-align: center">
-                                    Pontianak, 14 Juni 2020<br />
-                                    Kepala SMK Negeri 7 Pontianak<br />
-                                    <img src="{{asset('admin/ttdkepsek_abriyandi.png')}}" width="100px" style="margin-top: -20px; margin-bottom:-40px" /><br />
-                                    <b style="border-bottom: 1px solid black;">ABRIYANDI, S.Pd, M.Si.</b><br />
-                                    NIP. 19741009 199903 1 006
+                    Pontianak, 14 Juni 2020<br />
+                    Kepala SMK Negeri 7 Pontianak<br />
+                    <img src="{{asset('admin/ttdkepsek_abriyandi.png')}}" width="100px" style="margin-top: -20px; margin-bottom:-40px" /><br />
+                    <b style="border-bottom: 1px solid black;">ABRIYANDI, S.Pd, M.Si.</b><br />
+                    NIP. 19741009 199903 1 006
 
                 </div>
             </td>
