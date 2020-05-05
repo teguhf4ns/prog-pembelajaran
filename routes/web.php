@@ -19,9 +19,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::middleware('auth')->group(function () {
-	Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix' => 'admin'], function () {
 	// Mapel
 	Route::get('/mapel', 'MapelController@index')->name('mapel.index');
 	Route::post('/mapel', 'MapelController@importMapel')->name('mapel.import');
@@ -29,9 +30,9 @@ Route::middleware('auth')->group(function () {
 	// Siswa
 	Route::get('/siswa', 'SiswaController@index')->name('siswa.index');
 	Route::post('/siswa', 'SiswaController@importSiswa')->name('siswa.import');
-
-	// Lock screen (sementara)
-	Route::get('/screenlock', function () {
-		return view('screenlock');
-	})->name('screenlock');
 });
+
+// Lock screen (sementara)
+Route::get('/screenlock', function () {
+	return view('screenlock');
+})->name('screenlock');
