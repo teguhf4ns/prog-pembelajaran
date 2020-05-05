@@ -58,21 +58,21 @@
 				<div id="navbar-menu">
 					<ul class="nav navbar-nav navbar-right">
 
-                            <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="{{asset('logo/android-icon-72x72.png')}}" class="img-circle" alt="Avatar"> <span>{{ Auth::user()->name }}</span><span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#"><i class="lnr lnr-user"></i> <span>Tentang Saya</span></a></li>
-								<li><a href="#"><i class="lnr lnr-envelope"></i> <span>Pesan</span></a></li>
-								<li><a href="#"><i class="lnr lnr-cog"></i> <span>Pengaturan</span></a></li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();"><i class="lnr lnr-exit"></i> Keluar</a>
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </li>
-                            </ul>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="{{asset('logo/android-icon-72x72.png')}}" class="img-circle" alt="Avatar"> <span>{{ Auth::user()->name }}</span><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="lnr lnr-user"></i> <span>Tentang Saya</span></a></li>
+							<li><a href="#"><i class="lnr lnr-envelope"></i> <span>Pesan</span></a></li>
+							<li><a href="#"><i class="lnr lnr-cog"></i> <span>Pengaturan</span></a></li>
+							<li>
+								<a class="dropdown-item" href="{{ route('logout') }}"
+									onclick="event.preventDefault();
+									document.getElementById('logout-form').submit();"><i class="lnr lnr-exit"></i> Keluar</a>
+								<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+									@csrf
+								</form>
+							</li>
+						</ul>
 					</ul>
 				</div>
 			</div>
