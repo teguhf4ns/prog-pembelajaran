@@ -31,28 +31,7 @@ class SiswaController extends Controller
             'data' => $data
         ]);
     }
-    public function cetak(Request $req)
-    {
-        if ($req->setuju == "SAYA SETUJU") {
-            $siswa = Siswa::find($req->id);
-
-            $data = [
-                'nama' => $siswa->user->name,
-                'nisn' => $siswa->nisn,
-                'jurusan' => $siswa->jurusan,
-                'ttl' => $siswa->tempat_lahir . " , " . date('d/m/Y', strtotime($siswa->tanggal_lahir)),
-                'keterangan' => $siswa->keterangan,
-            ];
-            //return view('siswa.cetak', $data);
-            $pdf = PDF::loadView('siswa.cetak', $data);
-            //$pdf->setEncryption('rahasia', 'rahasia', array('copy', 'print'));
-            return $pdf->stream('Surat Kelulusan' . $data['nisn'] . '.pdf');
-        } else {
-            return back()->withErrors([
-                'pesan' => 'Anda harus mengetik "SAYA SETUJU" '
-            ]);
-        }
-    }
+   
     public function hapus($id)
     {
         User::find($id)->delete();
@@ -74,6 +53,7 @@ class SiswaController extends Controller
         }
         $user->save();
         $siswa = Siswa::where('user_id', $req->user_id)->first();
+        $siswa->nis = $req['nis'];
         $siswa->nisn = $req['nisn'];
         $siswa->tempat_lahir = $req['tempat'];
         $siswa->tanggal_lahir = $req['tanggal'];
@@ -81,7 +61,18 @@ class SiswaController extends Controller
         $siswa->jurusan = $req['jurusan'];
         $siswa->kelas = $req['kelas'];
         $siswa->wali = $req['wali'];
-        $siswa->keterangan = $req['keterangan'];
+        $siswa->agama = $req['agama'];
+        $siswa->jen_kel = $req['jen_kel'];
+        $siswa->alamat = $req['alamat'];
+        $siswa->no_hp = $req['no_hp'];
+        $siswa->asal_sklh = $req['asal_sklh'];
+        $siswa->ayah = $req['ayah'];
+        $siswa->kerja_ayah = $req['kerja_ayah'];
+        $siswa->ibu = $req['ibu'];
+        $siswa->kerja_ibu = $req['kerja_ibu'];
+        $siswa->email = $req['email'];
+        $siswa->password = $req['password'];
+        $siswa->fotosiswa = $req['fotosiswa'];
         $siswa->save();
         return redirect()->route('siswa.index');
     }

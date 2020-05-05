@@ -23,4 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin'], function(){
 
+Route::get('/siswa', 'SiswaController@index')->middleware('role:admin')->name('siswa.index');
 });

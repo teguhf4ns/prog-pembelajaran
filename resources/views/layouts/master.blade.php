@@ -91,7 +91,7 @@
 						{{-- <li><a href="{{route('mapel.index')}}" class=""><i class="lnr lnr-book"></i> <span>Mapel</span></a></li> --}}
 						<li><a href="#" class=""><i class="lnr lnr-book"></i> <span>Mapel</span></a></li>
 						<li><a href="#" class=""><i class="lnr lnr-users"></i> <span>Siswa</span></a></li>
-						{{-- <li><a href="{{route('siswa.index')}}" class=""><i class="lnr lnr-users"></i> <span>Siswa</span></a></li> --}}
+						<li><a href="{{route('siswa.index')}}" class=""><i class="lnr lnr-users"></i> <span>Siswa</span></a></li>
 						<li><a href="#" class=""><i class="lnr lnr-cog"></i> <span>Akun</span></a></li>
 						<li><a href="#" class=""><i class="lnr lnr-alarm"></i> <span>Pemberitahuan</span></a></li>
 						<li>
