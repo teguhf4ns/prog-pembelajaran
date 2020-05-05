@@ -114,9 +114,9 @@
 							<p><i>Teguh Firmansyah, S.Pd</i></p>
 							<p><i>Anugrah Ramadhan</i></p>
 							<p><i>Naufal Ramadhan</i></p>
+							<p><i>Hafiz P Pratama</i></p>
 							<p><i>Syafiq Afifuddin</i></p>
 							<p><i>Fajar Hidayat</i></p>
-							<p><i>Hafizh</i></p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
