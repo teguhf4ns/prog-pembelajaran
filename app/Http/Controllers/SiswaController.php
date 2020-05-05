@@ -53,6 +53,7 @@ class SiswaController extends Controller
         }
         $user->save();
         $siswa = Siswa::where('user_id', $req->user_id)->first();
+        $siswa->nis = $req['nis'];
         $siswa->nisn = $req['nisn'];
         $siswa->tempat_lahir = $req['tempat'];
         $siswa->tanggal_lahir = $req['tanggal'];
@@ -60,7 +61,18 @@ class SiswaController extends Controller
         $siswa->jurusan = $req['jurusan'];
         $siswa->kelas = $req['kelas'];
         $siswa->wali = $req['wali'];
-        $siswa->keterangan = $req['keterangan'];
+        $siswa->agama = $req['agama'];
+        $siswa->jen_kel = $req['jen_kel'];
+        $siswa->alamat = $req['alamat'];
+        $siswa->no_hp = $req['no_hp'];
+        $siswa->asal_sklh = $req['asal_sklh'];
+        $siswa->ayah = $req['ayah'];
+        $siswa->kerja_ayah = $req['kerja_ayah'];
+        $siswa->ibu = $req['ibu'];
+        $siswa->kerja_ibu = $req['kerja_ibu'];
+        $siswa->email = $req['email'];
+        $siswa->password = $req['password'];
+        $siswa->fotosiswa = $req['fotosiswa'];
         $siswa->save();
         return redirect()->route('siswa.index');
     }
