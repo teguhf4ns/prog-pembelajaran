@@ -24,7 +24,7 @@ class Dataawal extends Seeder
         ]);
         User::create([
             'name' => 'Teguh Firmansyah',
-            'email' => 'teguh.form@gmail.com',
+            'email' => 'teguhwebex@gmail.com',
             'password' => bcrypt('rahasia'),
         ])->attachRole('admin');
         User::create([
