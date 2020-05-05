@@ -14,9 +14,24 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+	return view('welcome');
+})->middleware('guest');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::middleware('auth')->group(function () {
+	Route::get('/home', 'HomeController@index')->name('home');
+
+	// Mapel
+	Route::get('/mapel', 'MapelController@index')->name('mapel.index');
+	Route::post('/mapel', 'MapelController@importMapel')->name('mapel.import');
+
+	// Siswa
+	Route::get('/siswa', 'SiswaController@index')->name('siswa.index');
+	Route::post('/siswa', 'SiswaController@importSiswa')->name('siswa.import');
+
+	// Lock screen (sementara)
+	Route::get('/screenlock', function () {
+		return view('screenlock');
+	})->name('screenlock');
+});
