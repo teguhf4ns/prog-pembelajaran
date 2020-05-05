@@ -94,9 +94,10 @@
 										<button type="submit" class="btn btn-primary">
 											{{ __('Masuk') }}
 										</button>
+
 										@if (Route::has('password.request'))
 											<a class="btn btn-link" href="{{ route('password.request') }}">
-												{{ __('Lupa Kata Sandi?') }}
+												{{ __('Lupa Kata Sandi ?') }}
 											</a>
 										@endif
 									</div>
@@ -113,9 +114,9 @@
 							<p><i>Teguh Firmansyah, S.Pd</i></p>
 							<p><i>Anugrah Ramadhan</i></p>
 							<p><i>Naufal Ramadhan</i></p>
+							<p><i>Hafiz P Pratama</i></p>
 							<p><i>Syafiq Afifuddin</i></p>
 							<p><i>Fajar Hidayat</i></p>
-							<p><i>Hafizh</i></p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
