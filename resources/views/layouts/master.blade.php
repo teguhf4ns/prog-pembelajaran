@@ -48,13 +48,13 @@
 	<div id="wrapper">
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="brand">
-				<img src="{{asset('admin/logo-smk.png')}}"></img>
-			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">
 					<button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
 				</div>
+			<div class="brand">
+				<img src="{{asset('admin/logo-smk.png')}}"></img>
+			</div>
 				<div id="navbar-menu">
 					<ul class="nav navbar-nav navbar-right">
 
