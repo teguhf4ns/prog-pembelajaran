@@ -44,12 +44,7 @@
         <a class="nav-link" href="{{route('home')}}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tabel Data</span></a>
-      </li>
+      
       <!-- Divider -->
       <hr class="sidebar-divider">
 
@@ -77,17 +72,17 @@
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Penilaian</span>
+          <i class="fas fa-fw fa-table"></i>
+          <span>Tabel</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Pilih Progres Penilaian</h6>
-            <a class="collapse-item" href="utilities-color.html">Kehadiran / Presensi</a>
-            <a class="collapse-item" href="utilities-color.html">Penugasan</a>
-            <a class="collapse-item" href="utilities-border.html">Ulangan Harian</a>
-            <a class="collapse-item" href="utilities-animation.html">Ujian Tengah Semester</a>
-            <a class="collapse-item" href="utilities-other.html">Ujian Akhir Semester</a>
+            <h6 class="collapse-header">Pilih Tabel</h6>
+            <a class="collapse-item" href="utilities-color.html">Data Pegawai / Guru</a>
+            <a class="collapse-item" href="utilities-color.html">Data Siswa</a>
+            <a class="collapse-item" href="utilities-border.html">Mata Pelajaran</a>
+            <a class="collapse-item" href="utilities-animation.html">Kalender Pendidikan</a>
+            <a class="collapse-item" href="utilities-other.html">Jadwal Pelajaran</a>
           </div>
         </div>
       </li>
@@ -97,14 +92,14 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Administrasi Pembelajaran
+        Administrasi
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
           <i class="fas fa-fw fa-folder"></i>
-          <span>Administrasi</span>
+          <span>Pembelajaran</span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
@@ -122,6 +117,33 @@
             <a class="collapse-item" href="#">Ulangan Harian</a>
             <a class="collapse-item" href="#">Ujian Tengah Semester</a>
             <a class="collapse-item" href="#">Ujian Akhir Semester</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-book"></i>
+          <span>Raport</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Raport Mini</h6>
+            <a class="collapse-item" href="#">1 (Satu)</a>
+            <a class="collapse-item" href="#">2 (Dua)</a>
+            <a class="collapse-item" href="#">3 (Tiga)</a>
+            <a class="collapse-item" href="#">4 (Empat)</a>
+            <a class="collapse-item" href="#">5 (Lima)</a>
+            <div class="collapse-divider"></div>
+            <h6 class="collapse-header">Raport Semester & Ijazah</h6>
+            <a class="collapse-item" href="#">1 (Satu)</a>
+            <a class="collapse-item" href="#">2 (Dua)</a>
+            <a class="collapse-item" href="#">3 (Tiga)</a>
+            <a class="collapse-item" href="#">4 (Empat)</a>
+            <a class="collapse-item" href="#">5 (Lima)</a>
+            <a class="collapse-item" href="#">6 (Enam)</a>
+            <a class="collapse-item" href="#">Nilai Ijazah</a>
           </div>
         </div>
       </li>

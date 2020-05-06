@@ -13,7 +13,7 @@
     <div class="row">
 
     <!-- Earnings (Monthly) Card Example -->
-    <div class="col-xl-8 col-md-8 mb-4">
+    <div class="col-xl-10 col-md-8 mb-4">
         <div class="card border-left-primary shadow h-100 py-2">
         <div class="card-body">
             <div class="row no-gutters align-items-center">
@@ -27,7 +27,8 @@
                     <input type="file" name="file" class="form-control-file" />
                 </div>
                 <div class="col-auto">
-                    <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span> 
+                    <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span>
+                    <a href="" class="input-group-btn"><button class="btn btn-success btn-toastr" type="submit" value="lihat"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
                 </div>
             </form>
             </div>
@@ -38,7 +39,7 @@
 
     <div class="row">
     <!-- Input Data Siswa -->
-    <div class="col-xl-8 col-md-8 mb-4">
+    <div class="col-xl-10 col-md-8 mb-4">
         <div class="card border-left-success shadow h-100 py-2">
         <div class="card-body">
             <div class="row no-gutters align-items-center">
@@ -53,6 +54,7 @@
                 </div>
                 <div class="col-auto">
                     <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span> 
+                    <a href="" class="input-group-btn"><button class="btn btn-success btn-toastr" type="submit" value="lihat"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a>
                 </div>
             </form>
             </div>
@@ -63,7 +65,7 @@
 
     <div class="row">
     <!-- Earnings (Monthly) Card Example -->
-    <div class="col-xl-8 col-md-8 mb-4">
+    <div class="col-xl-10 col-md-8 mb-4">
         <div class="card border-left-info shadow h-100 py-2">
         <div class="card-body">
             <div class="row no-gutters align-items-center">
@@ -77,7 +79,8 @@
                     <input type="file" name="file" class="form-control-file" />
                 </div>
                 <div class="col-auto">
-                    <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span> 
+                    <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span>
+                    <a href="" class="input-group-btn"><button class="btn btn-success btn-toastr" type="submit" value="lihat"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
                 </div>
             </form>
             </div>
