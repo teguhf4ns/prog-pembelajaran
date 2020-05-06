@@ -43,9 +43,10 @@
 					<div class="left">
 						<div class="content">
 							<div class="header">
-								<div class="logo text-center"><img src="{{asset('admin/assets/img/Rayyan/apple-icon-144x144.png')}}" alt="SMKN 7 Logo"></div>
+								<div class="logo text-center"><img src="{{asset('admin/assets/img/Rayyan/apple-icon-120x120.png')}}" alt="SMKN 7 Logo"></div>
 								<p class="lead"><b>Masuk dengan akun anda</b></p>
 							</div>
+							<hr>
 							<form method="POST" action="{{ route('login') }}">
 								@csrf
 
@@ -78,7 +79,7 @@
 								</div>
 
 								<div class="form-group row">
-									<div class="col-md-6 offset-md-4">
+									<div class="">
 										<div class="form-check">
 											<input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
@@ -88,15 +89,15 @@
 										</div>
 									</div>
 								</div>
-
-								<div class="form-group row mb-0">
-									<div class="col-md-8 offset-md-4">
-										<button type="submit" class="btn btn-primary">
-											{{ __('Masuk') }}
+								
+								<div class="form-group">
+									<div class="">
+										<button type="submit" class="btn btn-primary btn-user btn-block">
+											<b>{{ __('M A S U K') }}</b>
 										</button>
 
 										@if (Route::has('password.request'))
-											<a class="btn btn-link" href="{{ route('password.request') }}">
+											<a class="btn btn-link btn-user btn-block" href="{{ route('password.request') }}">
 												{{ __('Lupa Kata Sandi ?') }}
 											</a>
 										@endif
@@ -111,6 +112,7 @@
 							<h1 class="heading"><b>APLIKASI PEMBELAJARAN SMK Negeri 7 Pontianak</b></h1>
 							<br>
 							<h3><i>Team IT - Resourch and Development SMKN 7 Pontianak</i></h3>
+							<br>
 							<p><i>Teguh Firmansyah, S.Pd</i></p>
 							<p><i>Anugrah Ramadhan</i></p>
 							<p><i>Naufal Ramadhan</i></p>
