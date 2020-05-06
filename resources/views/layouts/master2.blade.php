@@ -97,11 +97,11 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAdministrasi" aria-expanded="true" aria-controls="collapseAdministrasi">
           <i class="fas fa-fw fa-folder"></i>
           <span>Pembelajaran</span>
         </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div id="collapseAdministrasi" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Perangkat</h6>
             <a class="collapse-item" href="#">Silabus</a>
@@ -120,14 +120,13 @@
           </div>
         </div>
       </li>
-
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-book"></i>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRaport" aria-expanded="true" aria-controls="collapseRaport">
+          <i class="fas fa-fw fa-folder"></i>
           <span>Raport</span>
         </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div id="collapseRaport" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Raport Mini</h6>
             <a class="collapse-item" href="#">1 (Satu)</a>
@@ -181,15 +180,26 @@
           </button>
 
           <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Cari ......" aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar">
+            <a href="https://www.facebook.com" class="btn btn-facebook btn-user">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.github.com">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.twitter.com" class="">
+              <i class="fab fa-twitter fa-fw"></i>
+            </a>
+            <a href="https://www.youtube.com" class="">
+              <i class="fab fa-youtube fa-fw"></i>
+            </a>
+            <a href="https://new.edmodo.com" class="">
+              <i class="fab fa-edmodo fa-fw"></i> edmodo
+            </a>
+            <a href="https://quizizz.com" class="">
+              <i class="fa fa-quizizz fa-fw"></i> Quizizz
+            </a>
+            
           </form>
 
           <!-- Topbar Navbar -->
