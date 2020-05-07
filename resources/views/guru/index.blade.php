@@ -9,21 +9,13 @@
             <div class="row">
                 <div class="col-md-12">
                 <!-- BASIC TABLE -->
-              
-                <form class="right" method="get" action="/guru">
-                    <div class="input-group col-md-4">
-                    <input name="cari" type="search" value="" class="form-control right" placeholder="Cari ...">
-                    <span class="input-group-btn right"><button type="submit" class="btn btn-primary">Cari</button></span>
-                    </div>
-                </form>
 
             <div class="panel">
                 <div class="panel-heading">
-                    <h2 class="panel-title">Data Tendik SMK Negeri 7 Pontianak</h2>
                     <div class="right">
                         <a href="{{ url('/home') }}" class="btn btn-primary btn-toastr">Depan</a>
                         <a href="{{ url('/siswa/create') }}" class="btn btn-success btn-toastr">Tambah Tendik</a>
-                        <a href="{{ url('/siswa/export_excel')}}" class="btn btn-success btn-toastr" target="_blank">EXPORT EXCEL</a>
+                        <a href="{{ url('/siswa/export_excel')}}" class="btn btn-info btn-toastr" target="_blank">EXPORT EXCEL</a>
              
                         {{-- notifikasi form validasi --}}
                             @if ($errors->has('file'))
@@ -40,7 +32,7 @@
                         </div>
                         @endif
 
-                        <a href="#importExcel" type="button" class="btn btn-primary btn-toastr" data-toggle="modal" data-target="#importExcel">
+                        <a href="#importExcel" class="btn btn-primary btn-toastr" data-toggle="modal" data-target="#importExcel">
                             IMPORT EXCEL
                         </a>
 
@@ -71,34 +63,45 @@
                             </div>
                         </div>
                         </div>
-                    </div>                           
-                    <div class="panel-body">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Nama Guru</th>
-                                    <th>N I P</th>
-                                    <th>Detail</th>
-                                </tr>
-                            </thead>
-                            @foreach( $data as $guru )
-                            <tbody>
-                                <tr>
-                                    <td>{{ $guru->nama }}</td>
-                                    <td>{{ $guru->nip }}</td>
-                                    <td><a href="/guru/{{ $guru->id }}" class="label label-primary"><i class="fa fa-info-circle"></i> Detail</a></td>
-                                </tr>
-                            </tbody>
-                            @endforeach
-                            </table>
+                    </div> 
+                    <br>
+                <h2 class="panel-title">Data Tendik SMK Negeri 7 Pontianak</h2>
+
+                <form class="right" method="get" action="/guru">
+                    <div class="input-group col-md-4">
+                    <input name="cari" type="search" value="" class="form-control right" placeholder="Cari ...">
+                    <span class="input-group-btn right"><button type="submit" class="btn btn-primary"><i class="fas fa-search fa-sm"></i></button></span>
+                    </div>
+                </form>
+                <br>
+                <div class="panel-body">
+                  <div class="row justify-content-center">
+                      <div class="col-md-12">
+                          <div class="card">
+                              <div class="card-body">
+                                  <p>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Nama Guru</th>
+                                                <th>N I P</th>
+                                                <th>Detail</th>
+                                            </tr>
+                                        </thead>
+                                        @foreach( $data as $guru )
+                                        <tbody>
+                                            <tr>
+                                                <td>{{ $guru->nama }}</td>
+                                                <td>{{ $guru->nip }}</td>
+                                                <td><a href="/guru/{{ $guru->id }}" class="label label-primary"><i class="fa fa-info-circle"></i> Detail</a></td>
+                                            </tr>
+                                        </tbody>
+                                        @endforeach
+                                    </table>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 @push('script')
     <script>
         $(document).ready( function () {
@@ -106,4 +109,10 @@
         } );
     </script>
 @endpush
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection

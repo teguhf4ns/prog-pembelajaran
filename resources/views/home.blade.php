@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-auto">
                     <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span>
-                    <a href="" class="input-group-btn"><button class="btn btn-success btn-toastr" type="submit" value="lihat"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
+                    <a href="{{ route('guru.index') }}" class="btn btn-success btn-toastr"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
                 </div>
             </form>
             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-auto">
                     <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span> 
-                    <a href="" class="input-group-btn"><button class="btn btn-success btn-toastr" type="submit" value="lihat"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a>
+                    <a href="{{ route('siswa.index') }}" class="btn btn-success btn-toastr"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a>
                 </div>
             </form>
             </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-auto">
                     <span class="input-group-btn"><button class="btn btn-primary btn-toastr" type="submit" value="Import"><i class="fas fa-upload fa-1x text-gray-100"></i> Import</button></span>
-                    <a href="" class="input-group-btn"><button class="btn btn-success btn-toastr" type="submit" value="lihat"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
+                    <a href="{{ route('mapel.index') }}" class="btn btn-success btn-toastr"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
                 </div>
             </form>
             </div>
