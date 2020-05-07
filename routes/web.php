@@ -30,6 +30,9 @@ Route::group(['prefix' => 'admin'], function () {
 	// Siswa
 	Route::get('/siswa', 'SiswaController@index')->name('siswa.index');
 	Route::post('/siswa', 'SiswaController@importSiswa')->name('siswa.import');
+
+	// Guru
+	Route::get('/guru', 'GuruController@index')->name('guru.index');
 });
 
 // Lock screen (sementara)
