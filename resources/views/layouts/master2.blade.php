@@ -78,11 +78,11 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Pilih Tabel</h6>
-            <a class="collapse-item" href="utilities-color.html">Data Pegawai / Guru</a>
-            <a class="collapse-item" href="utilities-color.html">Data Siswa</a>
-            <a class="collapse-item" href="utilities-border.html">Mata Pelajaran</a>
-            <a class="collapse-item" href="utilities-animation.html">Kalender Pendidikan</a>
-            <a class="collapse-item" href="utilities-other.html">Jadwal Pelajaran</a>
+            <a class="collapse-item" href="{{ url('/guru/index') }}">Data Pegawai / Guru</a>
+            <a class="collapse-item" href="{{ url('/siswa.index') }}">Data Siswa</a>
+            <a class="collapse-item" href="{{ url('/mapel/index') }}">Mata Pelajaran</a>
+            <a class="collapse-item" href="">Kalender Pendidikan</a>
+            <a class="collapse-item" href="">Jadwal Pelajaran</a>
           </div>
         </div>
       </li>
