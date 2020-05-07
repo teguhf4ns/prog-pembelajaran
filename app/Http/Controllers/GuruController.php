@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Imports\Importsiswa;
 use App\Siswa;
 use App\User;
+use App\Guru;
 use PDF;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;

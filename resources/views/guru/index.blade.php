@@ -81,7 +81,7 @@
                                     <th>Detail</th>
                                 </tr>
                             </thead>
-                            @foreach( $guru as $guru )
+                            @foreach( $data as $guru )
                             <tbody>
                                 <tr>
                                     <td>{{ $guru->nama }}</td>

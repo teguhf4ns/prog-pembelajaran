@@ -87,7 +87,7 @@
                         <th>Detail</th>
                     </tr>
                 </thead>
-                @foreach( $siswa as $siswa )
+                @foreach( $data as $siswa )
                 <tbody>
                     <tr>
                         <td>{{ $siswa->nama }}</td>
