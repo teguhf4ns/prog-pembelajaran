@@ -181,12 +181,10 @@
 
           <!-- Topbar Search -->
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar">
-            <a href="https://www.facebook.com" class="btn btn-facebook btn-user">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.github.com" ><img src="{{asset('logo/github.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://www.facebook.com/OfficialSMKN7PTK/" ><img src="{{asset('logo/facebook.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://www.twitter.com" ><img src="{{asset('logo/twitter.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
-            <a href="https://www.youtube.com" ><img src="{{asset('logo/youtube.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://www.github.com" ><img src="{{asset('logo/github.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://www.youtube.com/channel/UCQo656fcObDThoHii349DtA" ><img src="{{asset('logo/youtube.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://new.edmodo.com" ><img src="{{asset('logo/edmodo2.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://quizizz.com" ><img src="{{asset('logo/quizizz.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             
