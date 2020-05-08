@@ -123,7 +123,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRaport" aria-expanded="true" aria-controls="collapseRaport">
-          <i class="fas fa-fw fa-folder"></i>
+          <i class="fas fa-fw fa-book"></i>
           <span>Raport</span>
         </a>
         <div id="collapseRaport" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
@@ -193,11 +193,11 @@
             <a href="https://www.youtube.com" class="">
               <i class="fab fa-youtube fa-fw"></i>
             </a>
-            <a href="https://new.edmodo.com" class="">
-              <i class="fab fa-edmodo fa-fw"></i> edmodo
+            <a href="https://new.edmodo.com" class="btn btn-warning btn-user">
+              <i class="fab fa-edmodo-e">edmodo</i>
             </a>
-            <a href="https://quizizz.com" class="">
-              <i class="fa fa-quizizz fa-fw"></i> Quizizz
+            <a href="https://quizizz.com" class="btn btn-primary btn-user">
+              <i class="fab fa-quizizz-Q"></i>Quizizz
             </a>
             
           </form>
@@ -245,7 +245,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Staf IT & Search Development SMKN 7 Pontianak 2020</span>
+            <span>Copyright &copy; Team IT & Search Development SMKN 7 Pontianak 2020</span>
           </div>
         </div>
       </footer>
