@@ -184,21 +184,11 @@
             <a href="https://www.facebook.com" class="btn btn-facebook btn-user">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.github.com">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.twitter.com" class="">
-              <i class="fab fa-twitter fa-fw"></i>
-            </a>
-            <a href="https://www.youtube.com" class="">
-              <i class="fab fa-youtube fa-fw"></i>
-            </a>
-            <a href="https://new.edmodo.com" class="btn btn-warning btn-user">
-              <i class="fab fa-edmodo-e">edmodo</i>
-            </a>
-            <a href="https://quizizz.com" class="btn btn-primary btn-user">
-              <i class="fab fa-quizizz-Q"></i>Quizizz
-            </a>
+            <a href="https://www.github.com" ><img src="{{asset('logo/github.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://www.twitter.com" ><img src="{{asset('logo/twitter.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://www.youtube.com" ><img src="{{asset('logo/youtube.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://new.edmodo.com" ><img src="{{asset('logo/edmodo2.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://quizizz.com" ><img src="{{asset('logo/quizizz.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             
           </form>
 
@@ -261,25 +251,6 @@
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-
-  <!-- Logout Modal-->
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">Pilih Tombol "Keluar" di bawah ini jika Anda siap untuk mengakhiri sesi ini.</div>
-        <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-          <a class="btn btn-primary" href="#">Keluar</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Bootstrap core JavaScript-->
   <script src="{{asset('admin2/vendor/jquery/jquery.min.js')}}"></script>
