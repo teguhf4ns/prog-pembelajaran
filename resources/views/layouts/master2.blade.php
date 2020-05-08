@@ -136,12 +136,12 @@
             <a class="collapse-item" href="#">5 (Lima)</a>
             <div class="collapse-divider"></div>
             <h6 class="collapse-header">Raport Semester & Ijazah</h6>
-            <a class="collapse-item" href="#">1 (Satu)</a>
-            <a class="collapse-item" href="#">2 (Dua)</a>
-            <a class="collapse-item" href="#">3 (Tiga)</a>
-            <a class="collapse-item" href="#">4 (Empat)</a>
-            <a class="collapse-item" href="#">5 (Lima)</a>
-            <a class="collapse-item" href="#">6 (Enam)</a>
+            <a class="collapse-item" href="#">Semester 1 (Satu)</a>
+            <a class="collapse-item" href="#">Semester 2 (Dua)</a>
+            <a class="collapse-item" href="#">Semester 3 (Tiga)</a>
+            <a class="collapse-item" href="#">Semester 4 (Empat)</a>
+            <a class="collapse-item" href="#">Semester 5 (Lima)</a>
+            <a class="collapse-item" href="#">Semester 6 (Enam)</a>
             <a class="collapse-item" href="#">Nilai Ijazah</a>
           </div>
         </div>
@@ -183,6 +183,7 @@
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar">
             <a href="https://www.facebook.com/OfficialSMKN7PTK/" ><img src="{{asset('logo/facebook.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://www.twitter.com" ><img src="{{asset('logo/twitter.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
+            <a href="https://www.instagram.com/smkn7pontianak/" ><img src="{{asset('logo/insta.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://www.github.com" ><img src="{{asset('logo/github.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://www.youtube.com/channel/UCQo656fcObDThoHii349DtA" ><img src="{{asset('logo/youtube.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
             <a href="https://new.edmodo.com" ><img src="{{asset('logo/edmodo2.jpeg')}}" width="35px" class="img-circle" alt="Avatar"></a>
@@ -233,7 +234,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Team IT & Search Development SMKN 7 Pontianak 2020</span>
+            <span>Copyright &copy; Team IT & Resourch Development SMKN 7 Pontianak 2020</span>
           </div>
         </div>
       </footer>
