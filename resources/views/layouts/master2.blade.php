@@ -199,7 +199,7 @@
 
             <!-- Nav Item - User Information -->
             
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>{{ Auth::user()->name }} </span><img src="{{asset('logo/android-icon-48x48.png')}}" class="img-circle" alt="Avatar"><span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>{{ Auth::user()->name }} </span><img src="{{asset('logo/android-icon-48x48.png')}}" width="37px" class="img-circle" alt="Avatar"><span class="caret"></span></a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
