@@ -23,10 +23,10 @@
             <div class="panel">
               <div class="panel-heading">
                 <div class="right">
-                    <a href="{{ url('/home') }}" class="btn btn-primary btn-toastr">Depan</a>
-					          <a href="{{ url('/siswa/create') }}" class="btn btn-success btn-toastr">Tambah Siswa</a>
-                    <a href="{{ url('/siswa/export_excel')}}" class="btn btn-info btn-toastr" target="_blank">EXPORT EXCEL</a>
-             
+                    <a href="{{ url('/home') }}" class="btn btn-primary btn-toastr"><i class="fa fa-home fa-sm fa-fw mr-2"></i> Kembali</a>
+					          <a href="{{ url('/siswa/create') }}" class="btn btn-success btn-toastr"><i class="far fa-edit"></i> Tambah Siswa</a>
+                    <a href="{{ url('/siswa/export_excel')}}" class="btn btn-info btn-toastr" target="_blank"><i class="fa fa-download fa-sm fa-fw mr-2"></i> EXPORT EXCEL</a>
+                    
               {{-- notifikasi form validasi --}}
                 @if ($errors->has('file'))
                   <span class="invalid-feedback" role="alert">
@@ -42,9 +42,7 @@
               </div>
               @endif
 
-              <a href="#importExcel" class="btn btn-primary" data-toggle="modal" data-target="#importExcel">
-                IMPORT EXCEL
-              </a>
+              <a href="#importExcel" class="btn btn-primary" data-toggle="modal" data-target="#importExcel"><i class="fa fa-upload fa-sm fa-fw mr-2"></i> IMPORT EXCEL</a>
 
               <!-- Import Excel -->
               <div class="modal fade" id="importExcel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

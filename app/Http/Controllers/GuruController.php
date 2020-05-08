@@ -20,10 +20,11 @@ class GuruController extends Controller
             'data' => Guru::cursor()
         ]);
     }
-    public function importSiswa(Request $req)
+    public function importGuru(Request $req)
     {
-        Excel::import(new Importguru, request()->file('file'));
-        return back();
+        return view('guru.index', [
+            'data' => Guru::cursor()
+        ]);
     }
     public function lihatguru($id)
     {
@@ -47,7 +48,7 @@ class GuruController extends Controller
     {
 
         $user = User::find($req->user_id);
-        $user->email = $req['kg'] . "@smkn7ptk.sch.id";
+        $user->email = $req['nrp'] . "@smkn7ptk.sch.id";
         $user->name = $req['name'];
         if ($req['password']) {
             $user->password = bcrypt($req['password']);
