@@ -5,7 +5,7 @@
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">Menu Aplikasi Pembelajaran</h1>
+    <h1 class="h3 mb-0 text-gray-800">Sistem Aplikasi SMK Negeri 7 Pontianak</h1>
     <a href="{{route('home')}}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-back fa-sm text-white-50"></i> KEMBALI</a>
     </div>
 
@@ -18,11 +18,9 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">D a t a</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">GURU</div>
-                </div>
-                <div class="col-auto">
-                    <a href="{{ route('guru.index') }}" class="badge badge-primary badge-toastr"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a> 
+                    <a href="{{ route('guru.index') }}" class="btn btn-primary badge-toastr"><img src="{{asset('logo/karir_icon_color.png')}}" height="40px" class="img-circle" alt="Avatar"> Pegawai</button></a>
+                    <a href="#" ><img src="{{asset('logo/guuru.png')}}" width="45px" class="img-circle" alt="Avatar"> 24</a>
+                    <a href="#" ><img src="{{asset('logo/GuruCe.jpeg')}}" width="45px" class="img-circle" alt="Avatar"> 32</a><br>
                 </div>
                 </div>
             </div>
@@ -35,16 +33,15 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">D a t a</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">SISWA</div>
-                </div>
-                <div class="col-auto">
-                    <a href="{{ route('siswa.index') }}" class="badge badge-success badge-toastr"><i class="fas fa-info-circle fa-1x text-gray-100"></i> Lihat</button></a>
+                    <a href="{{ route('siswa.index') }}" class="btn btn-success badge-toastr"><img src="{{asset('logo/icon_anak_smk.png')}}" height="40px" class="img-circle" alt="Avatar"> Peserta Didik</button></a>
+                    <a href="#" ><img src="{{asset('logo/siswa.png')}}" width="45px" class="img-circle" alt="Avatar"> 570</a>
+                    <a href="#" ><img src="{{asset('logo/siswi.png')}}" width="45px" class="img-circle" alt="Avatar"> 400</a><br>
                 </div>
                 </div>
             </div>
             </div>
         </div>
+        
 
         <!-- Data Mapel -->
         <div class="col-xl-3 col-md-6 mb-4">
