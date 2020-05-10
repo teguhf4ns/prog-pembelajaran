@@ -27,6 +27,10 @@ Route::group(['prefix' => 'admin'], function () {
 	Route::get('/mapel', 'MapelController@index')->name('mapel.index');
 	Route::post('/mapel', 'MapelController@importMapel')->name('mapel.import');
 
+	// Mapel
+	Route::get('/kurikulum', 'KurikulumController@index')->name('kurikulum.index');
+	Route::post('/kurikulum', 'KurikulumController@importKurikulum')->name('kurikulum.import');
+
 	// Siswa
 	Route::get('/siswa', 'SiswaController@index')->name('siswa.index');
 	Route::post('/siswa', 'SiswaController@importSiswa')->name('siswa.import');

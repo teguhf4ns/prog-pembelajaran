@@ -14,7 +14,7 @@
                         <div class="panel-heading">
                         <h3 class="panel-title">Data Tendik SMK Negeri 7 Pontianak</h3><br>
                             <div class="right">
-                                <a href="{{ url('/home') }}" class="btn btn-primary btn-toastr"><i class="fa fa-home fa-sm fa-fw mr-2"></i> Kembali</a>
+                                <a href="{{ url('/home') }}"><img src="{{asset('logo/Icon-Back.png')}}" height="40px" width="40px" class="img-circle" alt="Avatar"></a>
                                 <a href="{{ url('/guru/create') }}" class="btn btn-success btn-toastr"><i class="far fa-edit"></i> Tambah Tendik</a>
                                 <a href="{{ url('/guru/export_excel')}}" class="btn btn-info btn-toastr" target="_blank"><i class="fa fa-download fa-sm fa-fw mr-2"></i> EXPORT EXCEL</a>
                     

@@ -14,8 +14,8 @@
 						<div class="profile-info">
 							<!-- <h4 class="heading">Action</h4> -->
 							<ul class="list-inline">
-								<li><a href="{{ url('/siswa') }}" class="btn btn-primary btn-sm"><i class="lnr lnr-back"></i>  Kembali</a>
-                                    <a href="{{route('siswa.edit',$d->user_id)}}" class="label label-success"><i class="lnr lnr-pencil"></i> Ubah</a>
+								<li><a href="{{ url('/siswa') }}"><img src="{{asset('logo/Icon-Back.png')}}" height="40px" width="40px" class="img-circle" alt="Avatar"></a>
+								<a href="{{route('siswa.edit',$d->user_id)}}" class="label label-success"><i class="lnr lnr-pencil"></i> Ubah</a>
                                     <a href="{{route('siswa.hapus',$d->user_id)}}" onclick="return confirm('Yakin ?')" class="label label-danger"><i class="lnr lnr-trash"></i> Hapus</a></li>
 							</ul>
 						</div>
